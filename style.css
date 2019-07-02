@@ -1,0 +1,114 @@
+body{
+    background-color:#75a1ca;
+        }
+    #division1{
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    background: white;
+    height: 600px;
+    overflow-y: auto;
+    color: black;
+    border: 10px solid #01a3a4;
+    border-radius: 10px;
+    }
+    #division1 h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-transform:capitalize;
+    }
+    #division1 ul{
+    margin-top: 50px;
+    padding-left: 0;
+    }
+    #division1 ul li{
+    list-style: none;
+    border: 2px solid #b5c5dd;
+    width:80%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    height: 40px;
+    margin: 5px auto;
+    text-align: left;
+    }
+    #division1 ul li label{
+    margin: 0 auto;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 40px;
+    font-size: 18px;
+    }
+    #division1 ul li #check{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    -webkit-appearance: none;
+    border: 2px solid #b5c5dd;
+    position: relative;
+    outline: 0;
+    }
+    #division1 ul li #check:checked:after{
+    content: '\2714';
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+    left: 7px;
+    color: black;
+    }
+    #division1 ul li input[type="checkbox"]:checked+label{
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 3);
+    }
+    #division1 .control{
+    width: 60%;
+    margin: auto;
+    }
+    #division1 .control #input{
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border: 2px solid #b5c5dd;
+    border-radius:10px;
+    }
+    #division1 .control #input:focus{
+    outline: 0;
+    }
+    #division1 .control button{
+    width: 200px;
+    background: white;
+    border:none;
+    height: 30px;
+    margin-top: 2px;
+    cursor: pointer;
+    color: white;
+    }
+    #division1 .control button:focus{
+    outline: 0;
+    }
+    #division1 .control button:hover{
+    transform: scale(1.05)
+    }
+    #division1 .control #add{
+    background-color: #2980b9;
+    border-radius: 20px;
+    }
+    #division1 .control #remove{
+    background-color: #c0392b;
+    border-radius: 10px;
+    }
+    #division1 .mycheck{
+    opacity: 1;
+    border-radius: 10px;
+    }
+    .visual{
+    opacity: 1 !important;
+    border-radius: 10px;
+    }
+
+     
+
