@@ -1,2 +1,2 @@
-# rohitanp123.github.io
+# Basic TODO Project
 A simple TODO list
