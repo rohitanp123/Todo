@@ -3,4 +3,4 @@ A simple TODO list
 
 # Live Demo
 
-Click the link for demo [Live Demo](http://rohitanp123.github.io/todo)
+Click the link for demo [Live Demo]([https://rohitanp123.github.io/Todo/)
